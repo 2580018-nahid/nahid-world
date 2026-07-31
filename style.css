@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #2e7d32;
+}
+
+.hero {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #1b5e20;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #388e3c;
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.product-card {
+    max-width: 900px;
+    margin: -30px auto 40px auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+
+.product-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.product-visual {
+    flex: 1;
+    background: #f0f4f1;
+    border-radius: 12px;
+    text-align: center;
+    padding: 50px 20px;
+    border: 2px dashed #a5d6a7;
+}
+
+.product-icon {
+    font-size: 80px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    color: #1b5e20;
+    margin-bottom: 10px;
+}
+
+.price-tag {
+    font-size: 1.8rem;
+    color: #2e7d32;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.tax-info {
+    font-size: 1rem;
+    color: #888;
+    font-weight: normal;
+}
+
+.btn {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b5e20;
+}
+
+.status-msg {
+    margin-top: 10px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.features-section, .calculator-card {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #1b5e20;
+    margin-bottom: 30px;
+}
+
+.feature-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 5px solid #2e7d32;
+}
+
+.feature-box h3 {
+    color: #2e7d32;
+    margin-bottom: 8px;
+}
+
+.calculator-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.calc-sub {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.result-box {
+    margin-top: 20px;
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    color: #1b5e20;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}

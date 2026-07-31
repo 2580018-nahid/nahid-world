@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitBlend Portable USB Blender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-logo">FitBlend USB</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#calculator">Recipe Helper</a>
+            <a href="#buy">Buy Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <span class="badge">Targeted for Active Men (20s–30s)</span>
+        <h1>Fuel Your Fitness Anywhere</h1>
+        <p>Portable USB Electric Blender Bottle for Office, Gym, & University Life.</p>
+    </div>
+
+    <!-- Main Product Card -->
+    <div class="product-card" id="buy">
+        <div class="product-container">
+            <div class="product-visual">
+                <div class="product-icon">🥤⚡</div>
+                <p>USB Rechargeable Blender Bottle</p>
+            </div>
+            <div class="product-info">
+                <h2>FitBlend Portable Blender</h2>
+                <p>Designed for professionals & students. Effortlessly mix protein shakes, smoothies, and healthy drinks on the go.</p>
+                <div class="price-tag">¥4,980 <span class="tax-info">(Tax Included)</span></div>
+                
+                <button class="btn" id="orderBtn" onclick="handleOrder()">Order Now</button>
+                <p id="orderStatus" class="status-msg"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section" id="features">
+        <h2 class="section-title">Key Highlights</h2>
+        
+        <div class="feature-box">
+            <h3>⚡ USB Rechargeable Technology</h3>
+            <p>Charge effortlessly via USB Type-C using your laptop at the office or a power bank at the gym.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🌿 Healthy Lifestyle Support</h3>
+            <p>Mixes protein powders and smoothies completely smooth without clumps, supporting your active routine.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🎒 Compact & Portable</h3>
+            <p>Leak-proof safety design engineered to easily fit inside your gym bag or university backpack.</p>
+        </div>
+    </div>
+
+    <!-- Interactive JS Tool -->
+    <div class="calculator-card" id="calculator">
+        <h2 class="section-title">Quick Nutrition Estimator</h2>
+        <p class="calc-sub">Select your beverage preference for recommended blending time and estimated calories:</p>
+        
+        <div class="form-group">
+            <label for="drinkType">Select Drink Type:</label>
+            <select id="drinkType" onchange="calculateNutrition()">
+                <option value="protein">Whey Protein Shake (Post-Gym)</option>
+                <option value="smoothie">Banana Smoothie (Office Breakfast)</option>
+                <option value="detox">Green Detox Drink (Daily Refreshment)</option>
+            </select>
+        </div>
+
+        <div class="result-box" id="calcResult">
+            ⏱️ Recommended Blending Time: 25 - 30 Seconds | 📊 Est. Calories: ~160 kcal
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 FitBlend Nahid Project. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
